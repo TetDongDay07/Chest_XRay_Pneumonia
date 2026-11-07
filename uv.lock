@@ -114,7 +114,7 @@ wheels = [
 ]
 
 [[package]]
-name = "chest-xray-preunomia-project"
+name = "chest-xray-preumonia-project"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [

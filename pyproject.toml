@@ -1,10 +1,10 @@
 [project]
-name = "chest-xray-preunomia-project"
+name = "chest-xray-preumonia-project"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 authors = [
-    { name = "Nguyen Quoc Hieu", email = "baotramn962@gmail.com" }
+    { name = "Nguyen Quoc Hieu", email = "baotramn926@gmail.com" }
 ]
 requires-python = ">=3.12"
 dependencies = [
@@ -17,7 +17,7 @@ dependencies = [
 ]
 
 [project.scripts]
-chest-xray-preunomia-project = "chest_xray_preunomia_project:main"
+chest-xray-preumonia-project = "chest_xray_preumonia_project:main"
 
 [build-system]
 requires = ["uv_build>=0.12.3,<0.13.0"]
