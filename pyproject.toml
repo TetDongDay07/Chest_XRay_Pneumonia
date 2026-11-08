@@ -1,5 +1,5 @@
 [project]
-name = "chest-xray-preumonia-project"
+name = "chest-xray-pneumonia-project"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -14,10 +14,11 @@ dependencies = [
     "opencv-python>=5.0.0.93",
     "pandas>=3.1.1",
     "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
 ]
 
 [project.scripts]
-chest-xray-preumonia-project = "chest_xray_preumonia_project:main"
+chest-xray-pneumonia-project = "chest_xray_pneumonia_project:main"
 
 [build-system]
 requires = ["uv_build>=0.12.3,<0.13.0"]
