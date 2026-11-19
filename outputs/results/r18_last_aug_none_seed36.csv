@@ -1,0 +1,2 @@
+exp,mode,seed,trainable_params,epochs_run,val_auc,val_pr_auc,thr@rec90,spec@rec90,thr@rec95,spec@rec95,thr@rec98,spec@rec98
+r18_last_aug_none,last,36,8394754,10,0.9997378330711665,0.9999077862375013,0.9986870884895325,1.0,0.9986870884895325,1.0,0.695026695728302,0.9962962962962963

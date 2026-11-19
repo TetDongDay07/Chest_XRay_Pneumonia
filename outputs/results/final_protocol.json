@@ -1,0 +1,32 @@
+{
+  "primary_model": "r18_last_aug_shortcut",
+  "reference_model": "r18_last_aug_none",
+  "primary_target_recall": 0.95,
+  "date": "2026-11-19 15:31:02.821138",
+  "thresholds": {
+    "r18_last_aug_shortcut": {
+      "0.95": {
+        "thr": 0.7637997269630432,
+        "val_recall": 0.9588159588159588,
+        "val_spec": 0.9925925925925926
+      },
+      "0.98": {
+        "thr": 0.40552762150764465,
+        "val_recall": 0.9806949806949807,
+        "val_spec": 0.9703703703703703
+      }
+    },
+    "r18_last_aug_none": {
+      "0.95": {
+        "thr": 0.9986870884895325,
+        "val_recall": 0.9536679536679536,
+        "val_spec": 1.0
+      },
+      "0.98": {
+        "thr": 0.695026695728302,
+        "val_recall": 0.9897039897039897,
+        "val_spec": 0.9962962962962963
+      }
+    }
+  }
+}
